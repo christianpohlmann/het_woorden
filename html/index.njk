@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>het-woorden</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    ul {
+      columns: 4;
+      padding: 0;
+      list-style-type: none;
+    }
+    li {
+      break-inside: avoid;
+      padding: 1px;
+      border: 0px solid black;
+      margin-bottom: 2px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <body>
+    <h1>het-woorden</h1>
+    <ul>
+      {% for word in words %}
+        <li>{{ word }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</body>
+</html>
