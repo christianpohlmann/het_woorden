@@ -6,7 +6,7 @@ partial noun), unless they are used frequently in daily Dutch (e.g.
 "buitenland" or "ziekenhuis").
 
 ## Render HTML
-The words can be rendered in HTML by running:
+The words can be rendered in HTML by running from within the html directory:
 ```
 npm run build
 ```
